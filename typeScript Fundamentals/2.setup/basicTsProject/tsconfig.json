@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "target": "ES3",//which level of js support to target
+        "target": "ES2015",//which level of js support to target
         "outDir": "dist"//where to put your js file
     },
     "include": [
