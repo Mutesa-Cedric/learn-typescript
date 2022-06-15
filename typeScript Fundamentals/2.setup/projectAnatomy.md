@@ -1,4 +1,4 @@
-###anatomy_of_a_typescript_project
+## anatomy_of_a_typescript_project
 
 a very simple typescript project consists of only three files:
 
