@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
         "target": "ES2015",//which level of js support to target
-        "outDir": "dist"//where to put your js file
+        "outDir": "dist",//where to put your js file
+        "module": "commonJS"//so that the code will run with node
     },
     "include": [
         "src"//which files to compile
