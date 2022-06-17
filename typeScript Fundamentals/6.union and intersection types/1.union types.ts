@@ -19,7 +19,7 @@ const outPut=flipCoin();
 
 //using tuples
 
-function mayBeGetUserInfo():["error",Error]|["success",{name:string,email:string}]{
+function mayBeGetUserInfo1():["error",Error]|["success",{name:string,email:string}]{
     if(flipCoin()=="heads"){
         return [
             "success",{name:"mutesa cedric",email:"mutesacedric@gmail.com"}
@@ -31,7 +31,7 @@ function mayBeGetUserInfo():["error",Error]|["success",{name:string,email:string
 
 //working with tuples
 
-const outCome=mayBeGetUserInfo();
+const outCome=mayBeGetUserInfo1();
 
 const [var1,var2]=outCome /*var1 will be of type "error"|"success"
 var2 will be of type Error|{name:string,email:string}

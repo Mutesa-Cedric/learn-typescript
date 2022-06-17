@@ -1,4 +1,9 @@
 /*
+Type Guards are special forms of code that help narrow down the type of the variable within a conditional block, 
+such as if ... else if ... else statement or switch.
+
+They are executed at runtime and guarantee the type in a scope.
+
 type guards acts like a bridge between runtime and compiler time. besides static typing,
 you can use type guards to check the types at the period between compiler time and runtime.
 
