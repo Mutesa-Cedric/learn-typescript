@@ -1,4 +1,4 @@
-//we can use tuples for code cleanup
+//we can use aliases for code cleanup
 
 /*
 example: 
